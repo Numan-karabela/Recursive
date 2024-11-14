@@ -4,7 +4,7 @@ var node = new Node(8);
 AddNode(node, 10);
 AddNode(node, 1);
 AddNode(node, 9);
-
+Traverse(node);
 void Traverse(Node rootNode)
 {
     if (rootNode != null)
